@@ -1,0 +1,42 @@
+# Eclipse
+.classpath
+.project
+.settings/
+.log
+ 
+# Intellij
+*/.idea/*
+.idea/*
+*/.idea
+*/history/
+*/target/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+/target/*
+/bin/*
+
+# Gradle
+*/.gradle/*
+.gradle/*
+*/.gradle
+*/build/
+*/out/*
+*.bin
+*.lock
+!gradle-wrapper.jar
+
+#ignorar carpeta build
+*/build/*
+*/.metadata/
+
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
